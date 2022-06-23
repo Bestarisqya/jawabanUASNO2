@@ -1,0 +1,30 @@
+a [] = 2,18,1,0,56,76,98,34,12
+n = 9
+
+i adalah variabel pertama, j adalah variabel terakhir, pivot adalah data p, data pertama
+mengidentifikasi data i kurang dari pivot, selama i kurang dari pivot, maka i bergerak maju
+apakah data j lebih besar daroi pivot, j bergerak ke kiri.
+
+menentukan pivot, yakni 2
+menentukan i, yakni 18
+karena i lebih kecil dari pivot maka posisi tetap
+menentukan j yakni 18
+karena j adalah 18 lebih kecil dari pivot, maka posisi tetap
+i dan j ditukar
+
+2,18,1,0,56,76,98,34,12
+p  i                  j
+
+setelah ditukar
+2,18,1,0,56,76,98,34,12
+
+
+i sekarang di 1 kurang dari 2, posisi tetap
+i sekarang di 0 lebih kurang dari 2, maka i berhenti d 100
+j ada di 34
+2,18,1,0,56,76,98,34,12
+p               i  j
+
+tukar(data[j] dengan pivot)
+34,18,1,98,18,1,0,56,76
+i = 18 karena lebih besar dari pivot yaitu 34
